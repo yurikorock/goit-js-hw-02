@@ -10,7 +10,7 @@
 // console.log(getShippingMessage("Sweden", 100, 20)); // "Shipping to Sweden will cost 120 credits"
 
 function formatMessage(message, maxLength) {
-    if (message <= maxLength) {
+    if (message.length <= maxLength) {
         return message;
     }
     return message.slice(0, maxLength) + "...";

@@ -12,7 +12,7 @@
 function checkForSpam(message) {
     message = message.toLowerCase();
     
-    const hasSpam = message.includes("spam") || message.includes("buy");
+    const hasSpam = message.includes("spam") || message.includes("sale");
     
     return hasSpam;
 }
